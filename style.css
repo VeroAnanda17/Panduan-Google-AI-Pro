@@ -1,0 +1,83 @@
+/* Gaya Global & Font */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa; /* Latar belakang abu-abu sangat muda */
+    color: #3c4043; /* Warna teks utama yang lembut */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Kontainer Utama untuk Konten */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Latar belakang konten putih */
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Gaya untuk Header */
+header h1 {
+    font-size: 2.2em;
+    font-weight: 700;
+    text-align: center;
+    color: #1a73e8; /* Biru Google */
+    margin-bottom: 25px;
+}
+
+/* Tombol Aksi Utama (CTA) */
+.cta-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #1a73e8; /* Biru Google */
+    color: #ffffff;
+    padding: 12px 28px;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #1765cc; /* Biru lebih gelap saat disentuh */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk Judul Setiap Bagian (h2) */
+section h2 {
+    font-size: 1.6em;
+    color: #34a853; /* Hijau Google */
+    border-bottom: 2px solid #fbbc05; /* Aksen Kuning Google */
+    padding-bottom: 8px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Penataan untuk Daftar Benefit dan Langkah-langkah */
+ul, ol {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+/* Menguatkan teks pada langkah-langkah */
+li strong {
+    color: #ea4335; /* Merah Google */
+}
+
+/* Gaya untuk Teks Penutup */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-style: italic;
+    color: #5f6368;
+}
